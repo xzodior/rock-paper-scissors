@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(2, 15, 53);
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: black;
+    font-size: 32px;
+}
+
+#selections {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.option {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 5rem;
+    border: 2px white solid;
+    border-radius: 2rem;
+}
+
+.option:hover {
+    background-color: white;
+    border-color: orange;
+}
+
+#scoreboard {
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid white;
+    width: 70%;
+    margin: auto;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+}
+
+#results > p {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
